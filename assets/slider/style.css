@@ -1,0 +1,739 @@
+body{
+  font-family: Times;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-family: Times;
+}
+a{
+  color: #000;
+}
+
+a:hover{
+  color: #a73b23;
+}
+
+.main-content{
+  min-height: 1380px;
+}
+.slide .carousel-indicators {
+    
+    list-style: outside none none;
+    padding-left: 0;
+    position: absolute;
+    margin: 0px;
+    left: 0;
+    top:10px;
+    text-align: center;
+    width: 100%;
+    z-index: 15;
+    text-align: right;
+    padding-right: 10px;
+    height: 10px;
+}
+.banner-slide{
+  background: #f7f7f7;
+}
+
+.header-banner{
+  background: #a73b23;
+  height: 107px;
+}
+.header-banner .container{
+  background: #a73b23;
+}
+.heading-subject{
+  border-bottom:4px solid #993721; 
+   font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.select-search label{
+  font-size: 11px;
+  color :#fff;
+}
+
+.select-search .radio{
+  height: 20px;
+}
+.navbar-menu{
+  -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+background: #c56006;
+border:0px;
+height: 30px;
+min-height :30px;
+box-shadow: 0 1px 2px #808080;
+margin-bottom: 10px;
+}
+.navbar-menu #navbar{ 
+  padding-left: 0px;
+}
+.theme-main, .container{
+ width: 1040px;
+}
+.news-list-index ul{
+  padding-left:0px;
+  margin-left: 5px;
+  list-style: none;
+}
+.news-list-index ul li{
+  padding-left:0px;
+  margin-bottom: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  
+}
+.news-list-index ul li a{
+  height: 37px;
+  overflow: hidden;
+  display: block;
+}
+.news-letter-index{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+  height: 237px;
+  margin-bottom: 10px;
+}
+
+.news-letter-index .thumbnail a img{
+  height: 155px
+}
+
+td.table-bordered{
+  border: 0px;
+}
+
+.news-letter-index .caption{
+  height: 63px;
+  overflow: hidden;
+}
+
+.news-letter-index .thumbnail{
+  height: 235px;
+  
+}
+
+.video-list-index{
+  padding-left:0px;
+  padding-right: 0px;
+  width: 219px;
+  height: 188px;
+  margin-right: 8px;
+}
+
+.video-list-video{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 33.33%;
+  height: 188px;
+}
+.news-letter-index .thumbnail{
+  border: 0px;
+}
+.news-letter-index .thumbnail .caption{
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.news-letter-index .thumbnail .caption h5 a{
+  line-height: 18px;
+  font-size: 12px;
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 20px;
+    height: 30px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+.calendar-index{
+  height: 70px;
+  border-bottom:1px solid #CCC; 
+  margin-top: 0px;
+}
+
+.calendar-index .media-body{
+   height: 70px;
+  border-left:1px solid #CCC; 
+  padding-left: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color: #c56006;
+}
+.btn-social {
+  margin-left: 5px;
+}
+.hot-news .media-heading a{
+  font-size: 16px;
+}
+a.external{
+  cursor: pointer;
+}
+
+.right-wrapper{
+  /*width:94.6667%;*/
+}
+.right-heading{
+  padding: 0px;
+  margin-top: 10px;
+}
+ul.nav-right{
+  padding-left: 0px;
+  list-style: none;
+
+}
+ul.recent-news-right{
+  padding-left: 10px;
+  list-style-type: square;
+
+}
+
+ul.recent-news-right li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom:1px dotted;
+  border-bottom-color: #ddd;  
+
+}
+
+ul.nav-right li{
+  background-image: url("https://www.kku.ac.th/images/bullet-new.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding: 2px 0px 2px 10px;
+border-bottom: 1px dashed #ebebeb;
+
+}
+ul.nav-right li a{
+  color:#000;
+}
+
+
+
+
+footer{
+  margin-top: 20px;
+  background-color: #a33f00;
+}
+footer img{
+  vertical-align: top;
+}
+footer .container {
+  padding: 20px 20px 10px 0;
+  background: none repeat scroll 0 0 #a33f00;
+}
+footer .contact {
+    background: none repeat scroll 0 0 #a33f00;
+    color: #eef2f7;
+    font-size: 13px;
+    padding: 0px;
+}
+footer .contact a {
+    text-decoration: underline;
+    color: #eef2f7;
+    
+}
+
+a.read-more{
+  color :#a73b23;
+}
+
+
+.navbar-nav .dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #c56006;
+    border: 0px;
+    margin-top: -3px;
+}
+.navbar-nav .dropdown:hover .dropdown-menu li a {
+    color: #fff;
+}
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: #a73b23;
+}
+
+
+
+.breaking {
+    padding-top: 5px;    
+    /*width: 1007px;*/
+    background: #eee;
+    height:34px;
+    border-bottom:2px solid #dcdcdc;
+    box-shadow: -10px 0 20px #fff;
+    
+}
+.breaking a {
+    background: url("maque.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 15px 0 10px;
+}
+.breaking-news {
+    background: none repeat scroll 0 0 #fff;
+  
+    display: block;
+    margin-bottom: 7px;
+    overflow: hidden;
+    position: relative;
+   /* padding-right:90px;*/
+}
+.breaking-news:after {
+    background: inherit;
+    
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    z-index: 10;
+}
+.breaking-news .the-title {
+    background: url("https://www.kku.ac.th/breakingNews/b-news.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 17px 7px 10px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 6;
+    width: 150px;
+}
+.breaking-news .the-title a{
+ color:#fff;  
+}  
+.breaking-news ul {
+    position: absolute;
+    z-index: 5;
+}
+.breaking-news ul:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.breaking-news .slide_container {
+    height: 32px !important;
+}
+.breaking-news ul li {
+    display: block;
+    float: left;
+    font-family: Times;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0 0;
+    position: relative;
+}
+.breaking-news ul li:after {
+    color: #5a9e25;
+    content: "";
+    display: block;
+    font-family: "Entypo";
+    font-size: 8px;
+    position: absolute;
+    right: -4px;
+    top: 0;
+}
+.breaking-news ul li:last-child:after {
+    display: none;
+}
+.breaking-news ul li a {
+    display: block;
+    padding-left: 13px;
+    padding-right: 10px;
+    color: #000;
+}
+.breaking {
+    padding-top: 6px;
+}
+.breaking a {
+    background: url("https://www.kku.ac.th/breakingNews/maque.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 15px 0 10px;
+    font-family: Times;
+    background-position:0px 4px;
+    font-size:14px;
+    color: #000;
+}
+
+.carousel-control.left.banner-previous {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 0%);
+  width: 40px;
+}
+.carousel-control.right.banner-next {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, 0) 0%);
+  width: 40px;
+}
+.banner-caption{
+  width: 230px;
+  height: 70px;
+  left: 61%;
+  top :10px;
+  padding-top: 0px;
+}
+.banner-caption h4{
+  color: #a73b23;
+  text-shadow :none;
+  
+}
+
+.caption-news{
+  position: absolute;
+  bottom: 0px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  background:url('https://www.kku.ac.th/images/fill.png') repeat;
+  padding-top:10px;
+  padding-bottom: 10px; 
+  font-size: 16px;
+  
+}
+
+
+.paginate {
+font-family:Arial, Helvetica, sans-serif;
+margin-top: 5px;
+margin-left: 0px;
+text-align: left;
+}
+
+.paginate a {
+border-radius: 3px;
+box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px;
+margin: 1px 2px;
+padding: 5px 10px;
+display: inline-block;
+border-top: 1px solid #fff;
+text-decoration: none;
+color: #717171;
+font-size: smaller;
+font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+text-shadow: white 0 1px 0;
+background-color: #f5f5f5;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#eaeaea));
+background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -o-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: linear-gradient(top, #f9f9f9, #eaeaea);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea'); 
+}
+.paginate a:hover, .paginate a:focus {
+border-color: #fff;
+background-color: #fdfdfd;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#fafafa));
+background-image: -webkit-linear-gradient(top, #fefefe, #fafafa);
+background-image: -moz-linear-gradient(top, #fefefe, #fafafa);
+background-image: -ms-linear-gradient(top, #fefefe, #fafafa);
+background-image: -o-linear-gradient(top, #fefefe, #fafafa);
+background-image: linear-gradient(top, #fefefe, #fafafa);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#fafafa'); 
+}
+
+.paginate a:active {
+ box-shadow: rgba(0, 0, 0, 0.75) 0 0 0 0 inset;
+border-color: #505050;
+color: #f2f2f2;
+text-shadow: black 0 1px 0;
+background-color: #676767;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f5f5f), to(#5c5c5c));
+background-image: -webkit-linear-gradient(top, #5f5f5f, #5c5c5c);
+background-image: -moz-linear-gradient(top, #5f5f5f, #5c5c5c);
+background-image: -ms-linear-gradient(top, #5f5f5f, #5c5c5c);
+background-image: -o-linear-gradient(top, #5f5f5f, #5c5c5c);
+background-image: linear-gradient(top, #5f5f5f, #5c5c5c);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5f5f5f', EndColorStr='#5c5c5c');
+}
+.paginate span.current {
+border-radius: 3px;
+box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px;
+margin: 1px 2px;
+padding: 5px 10px;
+display: inline-block;
+border-top: 1px solid #a73b23;
+text-decoration: none;
+color: #fff;
+font-size: smaller;
+font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+text-shadow: white 0 1px 0;
+background-color: #a73b23;
+ 
+}
+.paginate span.disabled {
+border-radius: 3px;
+box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px;
+margin: 1px 2px;
+padding: 5px 10px;
+display: inline-block;
+border-top: 1px solid #fff;
+text-decoration: none;
+color: #717171;
+font-size: smaller;
+font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+text-shadow: white 0 1px 0;
+background-color: #f5f5f5;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#eaeaea));
+background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: -o-linear-gradient(top, #f9f9f9, #eaeaea);
+background-image: linear-gradient(top, #f9f9f9, #eaeaea);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea'); 
+}
+
+.paginate li{
+padding:4px;
+margin-bottom:3px;
+background-color:#FCC;
+list-style:none;}
+
+.paginate ul{margin:6px;
+padding:0px;} 
+
+.navbar-nav .dropdown-menu{
+  background-color: #c56006; 
+  border:0px;
+}
+.navbar-nav .dropdown-menu > li > a{
+  color:#fff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+  background-color: #c56006;
+}
+ul.news-topic-list{
+  list-style: none;
+  padding: 0px;
+}
+ul.news-topic-list li{
+  float: left;
+  width: 33.3333%;
+  padding-top:5px;
+  padding-bottom: 5px; 
+}
+ul.news-topic-list li a{
+  font-size: 16px;
+  font-weight: bold;
+}  
+
+ul.news-lastest-list{
+
+}
+ul.news-lastest-list li{
+  float: left;
+  width: 49%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+ul.news-lastest-list li:first-child{
+  margin-top: 0px;
+}
+ul.news-lastest-list li a img{
+  padding: 1px;
+  border: 1px solid #dcdcdc;
+}
+
+
+ul.video-lastest-list{
+
+}
+ul.video-lastest-list li{
+  float: left;
+  width: 49%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+}
+ul.video-lastest-list li:first-child{
+  margin-top: 0px;
+}
+ul.video-lastest-list-right li{
+  float: left;
+  width: 98%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+}
+ul.video-lastest-list-right li:first-child{
+  margin-top: 0px;
+}
+.detail-event-list{
+  font-size: 12px;
+  color: #808080;
+}
+
+.ipresearch-list{
+  width:100%;
+}
+
+.ipresearch-list ul li{
+  margin: 0px;
+  padding: 5px 0 5px 0;
+  border-bottom:1px solid #dcdcdc; 
+}
+
+.ipresearch-list ul li a img{
+  width: 90px;
+  height: 70px;
+}
+.ipresearch-list ul li h5{
+  height: 60px;
+}
+.ipresearch-list ul li h5 a{
+  line-height: 20px;
+  font-size: 15px;
+}
+
+ul.newsletter-list li{
+padding: 10px 0 10px 0;
+border-bottom:1px solid #dcdcdc; 
+margin: 0px;
+}
+
+ul.search-list{
+  list-style: square;
+  padding-left: 20px;
+}
+
+ul.search-list li{
+padding: 10px 0 10px 0;
+border-bottom:1px dotted #dcdcdc; 
+margin: 0px;
+}
+
+ul.search-list li p{
+  margin: 0px;
+  color: #888;
+  font-size: 11px;
+}  
+
+.news-heading-type p{
+  padding: 0px;
+  margin-bottom: 5px;
+}
+.news-heading-type{
+ border-bottom: 4px solid #993721;
+}
+
+
+
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 0.7s linear;
+  -moz-transition: opacity 0.7s linear;
+  -ms-transition: opacity 0.7s linear;
+  -o-transition: opacity 0.7s linear;
+  transition: opacity 0.7s linear;
+  opacity:0;
+}
+
+.carousel.carousel-fade .active.item {
+  opacity:1;
+}
+
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+  left: 0;
+  z-index: 1;
+}
+
+.carousel.carousel-fade .carousel-control {
+  z-index: 3;
+}
+
+.news-pp-list  > tbody > tr:nth-child(2n+1){
+  background-color: #fff;
+
+}
+
+.news-pp-list  > tbody > tr{
+  border-bottom: 1px dotted #ddd;
+}
+
+#back-top {
+    bottom: 120px;
+    right: 0px;
+    margin-right: 15px;
+    position: fixed;
+}
+#back-top span {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-bottom: 7px;
+  background: #ddd url(https://www.kku.ac.th/images/up-arrow.png) no-repeat center center;
+  /* rounded corners */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+#back-top a:hover span {
+  background-color: #777;
+}
+a.btn-newspp-hline{
+  color:#888;
+}
+.index-video{
+  background: url(https://www.kku.ac.th/images/sprite.png) no-repeat;
+  background-position: -225px -466px !important;
+  height: 140px !important;
+  width: 218px;
+  border:0px !important;
+  padding: 7px !important;
+}
+span.play-img{
+  background: url(https://www.kku.ac.th/images/play1.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 14px;
+    left: 0px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+a.lang-btn{
+  float: right;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+a.btn-link-search{
+  color: #0000cc;
+  float: right;
+  margin-top: 5px;
+  font-size: 11px;
+  margin-left: 10px;
+  text-decoration: underline;
+}

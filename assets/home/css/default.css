@@ -1,0 +1,346 @@
+body, div { font-family: 'lucida grande', helvetica, verdana, arial, sans-serif }
+body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-size: 13px;
+    color: #333;line-height: 1.5em;
+    background: url('../images/bg_wrapper.png') repeat-y top center;
+    background-color: #eeeeee;
+}
+#maincontainer{
+    width: 970px; /*Width of main container*/
+    margin: 0 auto; /*Center container on page*/
+}
+#wrapper{
+    width: 950px;
+    margin: 0 auto;
+    text-align: left;
+}
+#topsection{
+}
+#topsection .header{
+    width:100%;
+    padding:10px 0;
+}
+/*top menu*/
+#topmenu{
+    width:950px;
+    height: 67px;
+    background: url('../images/menu_bg.png') no-repeat;
+}
+#topmenu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#topmenu li{
+    display: inline;
+    float:left;
+    padding: 7px 0px 0 10px;
+}
+#topmenu li span{
+    width: 10px;
+    height: 35px;
+    line-height: 1px;
+    background: url('../images/line1.png') no-repeat;
+}
+#topmenu li a:link, #topmenu li a:visited{
+    font-size: 14px;
+    color:#ffffff;
+    text-decoration: none;
+}
+#topmenu li a:hover{
+    color:#000000;
+}
+/*------------------------*/
+
+#contentwrapper{
+    float: left;
+    width: 100%;
+}
+
+#contentcolumn{
+
+    margin-right: 240px; /*Set right margin to RightColumnWidth*/
+}
+
+#rightcolumn{
+ 
+    float: left;
+    width: 220px; /*Width of right column*/
+    margin-left: -220px; /*Set left margin to -(RightColumnWidth) */
+}
+
+#footer{
+    clear: both;
+    width: 950px; /*Width of main container*/
+    margin: 0 auto; /*Center container on page*/
+    background-color: #deeaf0;
+    margin-top:20px;
+    
+    height:75px;
+}
+
+#footer .fcontent{
+    padding: 5px 20px 20px 20px;
+    color: #3b8422;
+    text-align: center;
+    line-height: 1.5em
+}
+#footer a:link, #footer a:visited{
+    color: #3b8422;
+    text-decoration: none;
+}
+#footer a:hover{
+    color:#ff8000;
+}
+.clear{
+    clear: both;
+}
+/* เมนูด้านขวา */
+.rightmenu{
+    width: 100%;
+    font-size: 15px;
+    color: #333333;
+}
+.rightmenu div.head_main{
+    background: url('../images/sidemenu_head.png') top left no-repeat;
+    line-height: 2em;
+    padding: 4px 0 0 35px;
+    height: 36px;
+}
+.rightmenu div.head_voice{
+    background: url('../images/voice.png') top left no-repeat;
+    line-height: 2em;
+    padding: 4px 0 0 35px;
+    height: 36px;
+}
+.rightmenu ul{
+    text-align: left;
+    list-style: none;
+    margin:0;
+    font-size:13px;
+    padding: 0px;
+    background: url('../images/sidemenu_bottom.png') bottom ;
+    padding-bottom: 12px;
+}
+.rightmenu li{
+    background: url('../images/sidemenu_middle.png') repeat-y;
+    padding:3px 3px 3px 8px;
+}
+.rightmenu li span.bullet{
+    padding:6px 0px 6px 14px;
+    background: url('../images/bullet_on.png') left no-repeat;
+}
+.rightmenu li span.qoute{
+    padding:6px 0px 6px 18px;
+    background: url('../images/quote.png') left no-repeat;
+}
+.rightmenu li a:link,.rightmenu li a:visited{
+    color:#006fa4;
+    text-decoration: none;
+}
+.rightmenu li a:hover{
+    color:#ff8000;
+    text-decoration: underline;
+}
+
+/* ReadMore */
+.readmore,.readmore-text{
+    margin-top:10px;
+    padding:0 18px 4px 0;
+    text-align: right;
+}
+.readmore{
+    background: url('../images/readmore.png') no-repeat right;
+}
+.readmore a:link, .readmore a:visited{
+    color:#006fa4;
+    text-decoration:underline;
+}
+.readmore a:hover{
+    color:#ff8000;
+    text-decoration: underline;
+}
+
+.readmore-text a:link, .readmore-text a:visited{
+    color:#006fa4;
+    text-decoration:none;
+}
+.readmore-text a:hover{
+    color:#ff8000;
+}
+
+.topic_view{
+    margin: 0;
+    padding: 0;
+    /*background: url('../images/sl.gif') repeat;*/
+}
+.topic_view li{
+    padding: 0.6em 0 0.2em 18px;
+    border-bottom: 1px dotted #371c00;
+    background: url('../images/quote.png') left no-repeat;
+}
+.topic_view li a:link,.topic_view li a:visited{
+    font-size:13px;
+    color:#2d2d2d;
+    text-decoration:none;
+}
+.topic_view li a:hover{
+    color:#ff8000;
+}
+
+table.topic{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+table.topic tr{
+    border-bottom: 2px solid #ffffff;
+}
+table.topic tr.color1{
+    background-color: #fbfbfb;
+}
+table.topic tr.color2{
+    background-color: #eaf3f7;
+}
+table.topic tr a:link,table.topic tr a:visited{
+    font-size:13px;
+    color:#006fa4;
+    text-decoration:underline;
+}
+table.topic tr a:hover{
+    color:#ff8000;
+    text-decoration:none;
+}
+table.topic .td-topic{
+    padding: 0.4em 0 0.4em 18px;
+    background: url('../images/quote.png') left no-repeat;
+}
+table.topic .td-topic2{
+    padding: 0.4em 0 0.4em 18px;
+    background: url('../images/newspaper.png') left no-repeat;
+}
+
+#pagination{
+    display:block;
+    text-align:left;
+    height:22px;
+    line-height:21px;
+    clear:both;
+    padding-top:3px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:normal;
+}
+#pagination a, #pagination strong {
+    padding:7px;
+    padding-top:2px;
+    padding-bottom:2px;
+    border:1px solid #EBEBEB;
+    /*margin-left:10px;*/
+    text-decoration:none;
+    background-color:#F5F5F5;
+    color:#0072bc;
+    width:22px;
+    font-weight:normal;
+}
+#pagination strong, #pagination a:hover {
+    background-color:#DDEEFF;
+    border:1px solid #BBDDFF;
+    color:#0072BC;	
+}
+
+.article-title{
+    padding-top:15px;
+    font-size: 15px;
+    color:#333333;
+    font-weight: bold;
+}
+.writted{
+    font-size: 90%;
+    color:#8c8c8c;
+}
+.article-detail{
+    padding-top:8px;
+}
+.more-text{
+    font-weight: bold;
+    color:#4a4a4a;
+    margin:30px 0 5px 0;
+}
+
+/* ใช้สำหรับ Table เพื่อแสดง list ข้อมูลแบบ gridview */
+.gridview{
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-collapse: collapse;
+}
+.gridview_head{
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    border-bottom: 0px;
+    border-collapse: collapse;
+}
+.gridview_head th{
+    height: 10px;
+    padding: 8px 3px;
+}
+.gridview th{
+    height: 12px;
+    border: 1px solid #c9c9c9;
+    padding: 8px 3px;
+}
+.gridview td{
+    height: 16px;
+    border: 1px solid #c9c9c9;
+    padding: 5px 3px;
+}
+.gridview .th,.th{
+    font-weight: bold;
+    text-shadow: rgba(255,255,255,0.8) 0 1px 0;
+    color: #5a5a5a;
+    background: #dfdfdf url(../images/th_bg.png) repeat-x scroll left top;
+    height:28px;
+    text-align: center;
+}
+.gridview a:link, .gridview a:visited{
+    color:#0b55c4;
+    text-decoration: none;
+}
+.gridview a:hover, .gridview a:active{
+    text-decoration: underline;
+}
+
+.page_title{
+    font-size:110%;
+    font-weight: bold;
+    color:#333333;
+    padding:10px 0 5px 0;
+}
+.page_title span{
+    background: url('../images/book_open.png') no-repeat;
+    padding-left: 20px;
+}
+
+
+/* การค้นหา */
+.topic_search{
+    border: 1px solid #cfcfcf;
+}
+.topic_search .content{
+    background: url('../images/bt_search.png') top left repeat-x;
+    padding:4px;
+    text-align: left;
+}
+.topic_search{
+    border-radius:6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+.topic_search .content{
+    border-radius:4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
