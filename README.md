@@ -33,7 +33,7 @@ Pass : theadmin404
 
 
 <hr/>
-<h4></h4>
+<h4>การติดตั้ง</h4>
 <hr/>
 <p>1.ให้โหลดไฟล์ตามลิงค์ https://github.com/leksoft/waroons แล้วแตกไฟล์ออกแล้ว copy ไฟล์ไปไว้ใน htdocs ในนี้ผมใช้ MAMP จำลอง server นะครับ
 </p>
