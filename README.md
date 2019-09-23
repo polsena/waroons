@@ -53,6 +53,10 @@ Pass : theadmin404
 <p>เสร็จแล้วก็ให้รันดูครับ พิมพ์ http://localhost/waroons/ บน chrome</p>
 <img src = "https://miro.medium.com/max/1258/1*7lAHChrqism_E27GYzrnbg.png"></img>
 
+แปะ iframe 
+<code>
+  <iframe src="http://localhost/waroons/home/hotnewsv2" height="200" width="300"></iframe>
+</code>
 
 <hr/>
 มีปัญหาการติดตั้งปรึกษาผมได้ผ่าน https://www.facebook.com/m.nakharin ได้เลยครับ
